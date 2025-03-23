@@ -13,7 +13,7 @@ function Footer() {
 
         <div className='footerabout'>
         <div className='footer-about'>
-        <h2>Our School</h2>
+        <h2>My School</h2>
 <p>My School is a Complete School Website Solution with Online Admission and Online Fee Payment Accept. 
 This is Best School Website Solution for Your School.</p></div>
 
