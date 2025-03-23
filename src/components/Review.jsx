@@ -50,15 +50,15 @@ function Review() {
       };
   return (
       <>
-<div className="review-container my-lg-5 my-md-4 my-sm- my-2">
+<div className="review-container ">
 <div className='ack-info'>
 <h1>Reviews</h1>
 <p> " Check Our School Reviews from Students and Parents "</p>
 </div>
-           <div className="review-row">
+           <div className="review-row " >
            <Slider {...settings} >
             {cards.map((card, index) => (
-                <div key={index} className="col-lg-4 col-md-6 col-12 review-card">
+                <div key={index} className=" review-card" style={{paddingTop:20,paddingBottom:20}}>
                     <span className="icon">{card.icon}</span>
                     <img className="review-image" src={card.imgSrc} alt={card.alt} />
                    <div className='name'> <h3>{card.title}</h3>
