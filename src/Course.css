@@ -1,0 +1,175 @@
+
+
+.course h1,.course p{
+    background-color:white;
+    height:70px;
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+  }
+  
+  .mapping-course{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    height: 500px;
+    background-color:white;
+    
+  }
+  .courseimage {
+    
+    width:320px; 
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 2px;  
+    margin-bottom: 20px; 
+  }
+  
+  .coursecontent{
+    margin: 0px 20px;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+    background: #155E95;
+    cursor: pointer;
+  }
+  
+  .mappingcontent h3{
+    padding-top: 15px;
+    padding-bottom: 12px;
+    background: none;
+    background-color:#155E95;
+  }
+  
+  .mappingcontent p{
+    
+    padding-top: 8px;
+    background: none;
+    background-color:#155E95;
+  }
+  
+  .coursecontent:hover {
+    transform: scale(1.02);
+  }
+
+
+.description-list {
+  list-style-type: disc; 
+  list-style-position: inside; 
+  text-align: center; 
+  padding: 0; 
+  margin: 0 auto; 
+  display: table; 
+  background-color: #155E95;
+}
+
+.description-list li {
+  display: block; 
+  text-align: left; 
+  margin: 5px 0; 
+  background-color: #155E95;
+}
+
+.description-list li::before {
+  content: "•";}
+
+  .learn-more-btn {
+    background-color: blue;
+    color:black;
+    border: none;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 13px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color:blue;
+  }
+  
+
+  @media (max-width: 1024px) {
+    .row {
+      justify-content: space-around; 
+    }
+    .coursecomponent{
+      height: 100%
+    }
+    .mapping-course {
+      flex-direction: row;
+      height: 950px; 
+     
+  }
+
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .mapping-course {
+        flex-direction: column;
+        height: auto; 
+        gap: 20;
+    }
+   
+
+    .course{
+     padding-top: 100px;
+    }
+    .coursecontent {
+      width: 90%;
+      max-width: 320px;
+      margin-bottom: 20px;
+    
+    }
+    .courseimage {
+      width: 100%;
+      height: auto;
+    }
+
+   
+  }
+  
+  @media screen and (max-width: 480px) {
+    .coursecontent{
+      height: 425px;
+    }
+     .course p {
+      height: auto;
+      padding: 10px;
+      font-size: 10px;
+    }
+    .course h1{
+      height: auto;
+      padding: 10px;
+      font-size: 24px;
+    }
+.vayo p{
+padding: 10px;
+
+}
+    .mapping-course {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+    }
+    .coursecontent {
+      width: 95%;
+      padding: 15px;
+    }
+    .mappingcontent h3 {
+      font-size: 18px;
+    }
+    .mappingcontent p {
+      font-size: 4px;
+    }
+    
+  }
+  

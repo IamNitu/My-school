@@ -1,0 +1,268 @@
+
+
+.contactquery1 {
+    position: relative;
+    width: 100vw; 
+
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+
+    flex-direction: column; 
+    padding-bottom: 20px;
+  }
+  
+  .image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.form1{
+    width: 600px;
+}
+
+  .fillform1 {
+    position: relative;  
+    z-index: 2;  
+    width: 100%;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #155E95;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 20px; 
+    margin-top: 40px;
+}
+
+iframe {
+    position: relative;  
+    z-index: 1;
+}
+
+  
+  .fillform1 h2 {
+    background: none;
+    margin-bottom: 15px;
+    color:black;
+  }
+  
+  
+  .fill-form-container {
+    margin-bottom: 15px;
+    background: none;
+  }
+  
+  .fill-form-container input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 2px;
+     font-size: 12px;
+   
+  }
+  
+  .submitted {
+    width: 100%;
+    padding: 12px;
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .fill-form-container label{
+    background-color: #155E95;
+   display: flex;
+   padding-bottom: 8px;
+  }
+  
+  .contact-container {
+    position: relative;
+    width: 100%;
+    height:100%;
+  
+  }
+  
+  .contact-about{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: rgb(4, 4, 4);
+    background: none;
+    font-size: 5rem;
+    font-weight: bold;
+    
+  }
+  
+  .contact-about p ,.contact-about h1{
+    padding: 0;  
+    margin: 0;
+    border: none;
+    text-align: justify;
+    font-weight: bold;
+    font-size:20px;
+    color:black;
+  }
+  
+  .mapicon{
+  
+    width:100%;
+    background: none;
+    text-align: center;
+   padding: 10px;
+    background-color:cadetblue;
+  }
+  
+  .mapcontainer{
+    background: none;
+    background-color: #155E95;
+    height: 100px;
+    width: 120px;
+  margin-left:100px ;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  
+  
+  .mapping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    height: 320px;
+    background-color:white;
+    
+  }
+  
+  .mapcontent:hover {
+    transform: scale(1.02);
+  }
+  
+  .mapcontent{
+    margin: 0px 20px;
+    height: 210px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+    background: #155E95;
+    cursor: pointer;
+  }
+  
+  .mapping h3{
+    padding-top: 20px;
+    background: none;
+    background-color:#155E95;
+  }
+  
+  .mapping p{
+    padding-top: 8px;
+    background: none;
+    background-color:#155E95;
+  }
+
+  @media (max-width: 768px) {
+    .contactquery1 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .form1{
+        width: 300px;
+    }
+
+    .fillform1 {
+        width: 95%;
+        padding: 20px;
+        top: 50%;
+    }
+
+    .fill-form-container input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .submitted {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .contact-about {
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .contact-about p {
+        font-size: 14px;
+    }
+
+    .mapping {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .mapcontent {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .mapcontent p, .mapcontent h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-about {
+        font-size: 2rem;
+        top: 50%;
+    }
+
+    .contact-about p {
+        font-size: 16px;
+    }
+
+    .fillform1 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .fill-form-container input {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .submitted {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .mapcontent {
+        width: 85%;
+    }
+
+    .mapping p, .mapping h3 {
+        font-size: 14px;
+    }
+}

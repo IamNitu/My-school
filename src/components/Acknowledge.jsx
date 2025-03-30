@@ -30,15 +30,15 @@ function Acknowledge() {
     ];
   return (
       <>
-<div className="ack-container my-lg-5 my-md-4 my-sm- my-2">
+<div className="ack-container ">
 <div className='ack-info'>
 <h1>Functions and Events</h1><br/>
-<p>" All programmes and activities of the school during the off-learning sessions. "</p>
+<p style={{paddingBottom:'10px'}}>" All programmes and activities of the school during the off-learning sessions. "</p>
 </div>
            <div className="row">
           
             {cards.map((card, index) => (
-                <div key={index} className="col-lg-4 col-md-6 col-12 ack-card">
+                <div key={index} className="ack-card">
                     <span className="icon">{card.icon}</span>
                     <img className="card-image" src={card.imgSrc} alt={card.alt} />
                     <h3>{card.title}</h3>

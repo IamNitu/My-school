@@ -7,33 +7,24 @@ import image2 from '../assets/image2.jpg';
 import image3 from '../assets/image3.jpg';
  function HomePage() {
 
-    const data=[image1,image2,image3]
   return (
     <>
         <div className='slider'>
         <div className='sliderimage'>
+        {/* <img src={image1} alt="School" className="slider-img" /> */}
        
-{/* <img src={data[0]} alt='' style={{width:'100%', height:'85vh'}}></img>
-
-<div className='btn'>
-   <div className='left-btn'>
-   <button> {'<'} </button>
-   </div>
-    <div className='right-btn'>
-    <button> {'>'} </button>
-    </div>
-</div> */}
 <div className='homepage-about'>
-  <h1>" My school, my pride, a place where dreams take flight! "</h1>
+  <h1 style={{background:'none',paddingLeft:'20px'}}>My school, my pride,<br/> a place where dreams take flight!</h1>
 </div>
       </div>
 
-
-      <Marquee className='marquee-container'>
-        <div className='marquee-content'>
+      <div className='marquee-content' >
+      <Marquee className='marquee-container' speed={60} style={{background:'none'}}>
+       
          <p >Welcome to My School. “Your Journey to Excellence Starts Here”</p>
-        </div>
+       
       </Marquee>
+      </div>
       
 </div>
 

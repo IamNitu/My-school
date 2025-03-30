@@ -46,24 +46,38 @@ function Review() {
         speed: 500,
         slidesToShow: 3,
          adaptiveHeight: false,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
       };
   return (
       <>
 <div className="review-container ">
 <div className='ack-info'>
-<h1>Reviews</h1>
+<h1 style={{paddingBottom:'14px'}}>Reviews</h1>
 <p> " Check Our School Reviews from Students and Parents "</p>
 </div>
            <div className="review-row " >
            <Slider {...settings} >
             {cards.map((card, index) => (
-                <div key={index} className=" review-card" style={{paddingTop:20,paddingBottom:20}}>
+                <div key={index} className=" review-card" style={{paddingTop:20,paddingBottom:20, background:'none'}}>
                     <span className="icon">{card.icon}</span>
                     <img className="review-image" src={card.imgSrc} alt={card.alt} />
-                   <div className='name'> <h3>{card.title}</h3>
-                    <p id='parent'>{card.name}</p></div>
-                    <p>{card.description}</p>
+                   <div className='name' style={{background:'none'}}> <h3>{card.title}</h3>
+                    <p id='parent' style={{background:'none'}}>{card.name}</p></div>
+                    <p style={{background:'none'}}>{card.description}</p>
                     {/* <button>Read More</button> */}
                 </div>
             ))}

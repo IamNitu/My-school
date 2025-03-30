@@ -1,0 +1,69 @@
+
+
+.certificate-component {
+    position: relative;
+    width: 100%;
+    
+  }
+
+  .certificate-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    color:black;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    height: 240px;
+
+  }
+
+  .formstyle{
+    height:100%;
+    width:100%;
+   padding: 20px;
+   background-color: cadetblue;
+  }
+  
+.formstyle h2, .formstyle p{
+    padding-bottom: 10px;
+    background-color: cadetblue;
+}
+
+.certificate-fillform{
+  padding-bottom: 12px;
+  background-color: cadetblue;
+}
+.submit{
+  height: 30px;
+  width:100%;
+  background-color: #155E95;
+}
+
+.certificate-fillform input{
+ height: 30px;
+ width: 100%;
+ padding: 4px;
+}
+
+@media screen and (max-width:768px) {
+  .certificate-component{
+    width:80%;
+height: auto;;
+  }
+.certificate-form{
+  height: 250px;
+  width: 430px;
+}
+
+}
+
+@media screen and (max-width:480){
+  .certificate-form{
+    height: 400px;
+    width: 400px;
+  }
+}

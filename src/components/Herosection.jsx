@@ -1,6 +1,7 @@
 import React from 'react'
 import image2 from '../assets/image3.jpg';
 
+
 function About() {
   return (<div className='section'>
     <div className='herosection'>

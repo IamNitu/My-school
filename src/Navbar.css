@@ -1,0 +1,109 @@
+
+.navbar {
+    /* background-color: #004080; */
+    padding: 8px;
+    height:100px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+  }
+
+  .myschool {
+    font-size: 15px; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .my-school {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .header {
+    font-size: 16px;
+    /* font-weight: bold; */
+    color:black;
+  }
+  
+  .nitu {
+    text-decoration: overline;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .navlinks {
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+  }
+  
+  .navlinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: 0.3s;
+  }
+  
+  .navlinks a:hover {
+    color: black;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+
+    .navbar{
+width: 100%;
+z-index: 9999;
+position: fixed;
+height: 90px;
+    }
+ .container{
+  height: 70px;
+ }
+
+ .my-school{
+  height: 90px;
+ }
+.school{
+  max-height: 90px;
+}
+    .menu-icon {
+      display: block;
+    }
+  
+    .navlinks {
+      display: none;
+      flex-direction: column;
+      position:absolute;
+      top: 70px;
+      right: 0;
+      background:  #155E95;
+      width: 40%;
+      /* height: 200px; */
+      text-align: center;
+    padding: 10px;
+    }
+  
+    .navlinks.open {
+      display: flex;
+     margin: 4px;
+    }
+  
+    .navlinks a {
+      /* padding: 0px; */
+      font-size: 14px;
+    }
+  }
+  

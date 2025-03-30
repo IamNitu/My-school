@@ -28,16 +28,16 @@ function TeamMembers() {
     ];
   return (
       <>
-<div className="ack-container my-lg-5 my-md-4 my-sm- my-2">
+<div className="ack-container ">
 <div className='ack-info'>
 <h1>Team Members</h1><br/>
-<p>" Meet Our Team Members "</p>
+<p style={{paddingBottom:'10px'}}>" Meet Our Team Members "</p>
 
 </div>
            <div className="row">
           
             {cards.map((card, index) => (
-                <div key={index} className="col-lg-4 col-md-6 col-12 ack-card">
+                <div key={index} className=" ack-card">
                     <span className="icon">{card.icon}</span>
                     <img className="team-image" src={card.imgSrc} alt={card.alt} />
                     <h3>{card.title}</h3>

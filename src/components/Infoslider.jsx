@@ -10,11 +10,11 @@ function Infoslider() {
              {/* <div  className='info-slider'>
             <img src={image3} alt=''></img> 
             </div>  */}
-            <div className='background-container'>
+            <div className='background-container' >
             <div className='icons'>
-            <div className='icon-para'>
-            <FontAwesomeIcon className='font-icons' icon={faGraduationCap} />
-           <h3>1500+</h3>
+            <div className='icon-para' >
+            <FontAwesomeIcon className='font-icons' icon={faGraduationCap}  />
+           <h3 >1500+</h3>
            <p>Students</p>
             </div>
 
