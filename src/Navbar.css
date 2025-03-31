@@ -71,17 +71,18 @@ height: 90px;
     }
  .container{
   height: 60px;
-  padding-left: 13px;
+  padding-left: 15px;
  
  }
  
 .school{
   max-height: 90px;
   max-width: 80px;
+ 
 }
     .menu-icon {
       display: block;
-      
+     width:4px;
     }
   
     .header, .nitu{
@@ -106,7 +107,7 @@ height: 90px;
     .navlinks.open {
      
       display: flex;
-     margin-right: 4px;
+     margin-right: 7px;
     }
   
     .navlinks a {

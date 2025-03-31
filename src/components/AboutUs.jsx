@@ -14,10 +14,17 @@ function AboutUs() {
         <div className='aboutus'>
         <div className='about-us'>
 <img src={aboutimgcover} alt='' className='aboutkoimg' style={{height:'450px',width:"100%"}}></img>
-<div className='contact-about' style={{top:'50%',right:'-10%'}}>
-<h1 style={{background:'none',paddingBottom:'10px'}}>ABOUT US</h1>
+
+<div className='contact--about'>
+
+<h1 style={{background:'none',paddingBottom:'10px' }}>ABOUT US</h1>
     <p style={{background:'none',cursor: 'pointer'}}>Home{' > '}About</p>
 </div>
+
+{/* <div className='contact-about' style={{top:'50%',right:'-10%'}}>
+<h1 style={{background:'none',paddingBottom:'10px'}}>ABOUT US</h1>
+    <p style={{background:'none',cursor: 'pointer'}}>Home{' > '}About</p>
+</div> */}
         </div>
         <div className='about-container'>
        <div className='section'>

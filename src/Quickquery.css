@@ -132,16 +132,35 @@
   
     .submitted1 {
       font-size: 11px;
-      height: 27px;
+      /* height: 27px; */
     }
     .fillform-container input{
-      height: 27px;
-      font-size: 10px;
+      height: 32px;
+      font-size: 12px;
      
+    }
+
+    .fillform{
+      height: 100%;
+    }
+
+    .fillform h2{
+      padding: 16px;
+    }
+
+    .fillform-container{
+     height: 30px;
+    }
+   
+
+    .form{
+      height: 340px;
     }
     .login {
       font-size: 16px;
     }
+
+   
 
   }
   

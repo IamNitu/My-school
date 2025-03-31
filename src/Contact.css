@@ -175,6 +175,13 @@ iframe {
     background-color:#155E95;
   }
 
+  .damakicon{
+    background:none;
+    width:30px;
+    height:50px;
+    padding-top:10px;
+  }
+
   @media (max-width: 768px) {
     .contactquery1 {
         flex-direction: column;
@@ -242,8 +249,11 @@ iframe {
 .signup{
   font-size: 16px;
 }
+.contact-about h1{
+  font-size: 16px;
+}
     .contact-about p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .fillform1 {
@@ -267,11 +277,29 @@ iframe {
         padding: 8px;
         height: 27px;
     }
+
     .mapcontent {
-        width: 85%;
+        width: 80%;
+        
     }
 
-    .mapping p, .mapping h3 {
-        font-size: 14px;
+    .damakicon{
+      height: 25px;
+      width: 30px;
     }
+
+    .mappingcontent h3{
+      font-size: 16px;
+      height: 20px;
+    }
+    .mapcontent p{
+      font-size: 14px;
+    padding-bottom: 5px;
+    }
+.mapcomponent{
+  height: 450px;
+}
+    /* .mapping p, .mapping h3 {
+        font-size: 14px;
+    } */
 }

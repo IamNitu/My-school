@@ -49,19 +49,15 @@
  padding: 4px;
 }
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
   .certificate-component{
-    /* width:80%;
-height: auto; */
-width:0%;
-height: 0;
+    width:80%;
+height: auto;
   }
 .certificate-form{
-  /* height: 250px;
-  width: 430px; */
-  height: 230px;
+  height: 250px;
   width: 310px;
-  
+
 }
 .certificate-fillform input{
   font-size: 12px;
@@ -78,14 +74,38 @@ height: 0;
   height: 25px;
 }
 
-}
+} */
 
-@media screen and (max-width:480){
-  .certificate-form{
-    /* height: 250px;
-    width: 430px; */
-    height: 200px;
-    width: 300px;
+
+@media screen and (max-width: 480px) {
+  .certificate-component {
+
+    position: relative;
   }
-  
+
+  .certificate-form {
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 80%;
+    padding: 20px;
+  }
+
+  .certificate-fillform input{
+    font-size: 12px;
+    height: 35px;
+  }
+  .formstyle h2{
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .formstyle p{
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .submit{
+    font-size: 10px;
+   
+  }
 }

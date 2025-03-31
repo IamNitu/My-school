@@ -140,15 +140,15 @@ function Contact()
    
     </div>
     </div>
-    <div>
+    <div className='dmkmap'>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114091.67939564973!2d87.59437581532463!3d26.66880719170973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e58e14d281c547%3A0xb0d3c98577060f3d!2sDamak!5e0!3m2!1sen!2snp!4v1742827119874!5m2!1sen!2snp"style={{ width:"100%" ,height:"450px"}}></iframe>
     </div>
 <div className='mapcomponent'>
 <div className='mapping'>
     {cards.map((card,index)=>(
         <div className='mapcontent' key={index}>
-        <span style={{background:'none'}}>
-        <FontAwesomeIcon icon={card.icon} style={{background:'none',width:'30px',height:'50px',paddingTop:'10px'}} />
+        <span  style={{background:'none'}}>
+        <FontAwesomeIcon icon={card.icon} className='damakicon' />
         </span>
 
         <div className='mappingcontent'> <h3 >{card.title}</h3></div>
