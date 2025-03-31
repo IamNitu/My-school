@@ -78,10 +78,23 @@
       padding: 20px;
     }
     .ack-info h1 {
-      font-size: 20px;
+      font-size: 16px;
+      padding-bottom: 10px;
       
     }
     .ack-info p {
+      font-size: 14px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .ack-card h3{
       font-size: 16px;
+      padding-bottom: 10px;
+    }
+
+    .ack-card p{
+      font-size: 14px;
+      padding-bottom: 10px;
     }
   }

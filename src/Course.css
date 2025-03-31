@@ -7,6 +7,9 @@
     text-align: center;
     padding-top: 12px;
   }
+  .course p{
+    font-size: 17px;
+  }
   
   .mapping-course{
     display: flex;
@@ -54,6 +57,17 @@
   
   .coursecontent:hover {
     transform: scale(1.02);
+  }
+
+  .final-content h3{
+    text-align:center;
+    font-size:25px;
+    padding-top:14px;
+  }
+  .final-content p{
+    text-align:center;
+    font-size:17px;
+    padding-top:14px;
   }
 
 
@@ -144,15 +158,21 @@
      .course p {
       height: auto;
       padding: 10px;
-      font-size: 10px;
+      font-size: 14px;
     }
     .course h1{
       height: auto;
       padding: 10px;
-      font-size: 24px;
+      font-size: 16px;
     }
-.vayo p{
-padding: 10px;
+.final-content p{
+font-size: 14px;
+padding: 4px;
+padding-top: 18px;
+}
+
+.final-content h3{
+font-size: 16px;
 
 }
     .mapping-course {
@@ -165,10 +185,30 @@ padding: 10px;
       padding: 15px;
     }
     .mappingcontent h3 {
-      font-size: 18px;
+      font-size: 16px;
+      padding-top: 16px;
     }
-    .mappingcontent p {
-      font-size: 4px;
+    .coursecontent p {
+      font-size: 14px;
+    }
+
+    .learn-more-btn {
+   font-size: 10px;
+   
+    }
+
+    .courseimage{
+      width: 100%;
+      height: 200px;
+      margin-bottom: 2px;
+    }
+
+    .description-list li{
+      font-size: 14px;
+    }
+    .mappingcontent {
+     margin-bottom: 10px;
+     background-color: #155E95
     }
     
   }

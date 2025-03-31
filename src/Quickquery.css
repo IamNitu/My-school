@@ -117,12 +117,13 @@
   }
   
   @media (max-width: 480px) {
+   
     .query-about {
       width: 90%;
     }
   
     .query-about h1 {
-      font-size: 20px;
+      font-size: 16px;
     }
   
     .query-about p {
@@ -130,6 +131,15 @@
     }
   
     .submitted1 {
+      font-size: 11px;
+      height: 27px;
+    }
+    .fillform-container input{
+      height: 27px;
+      font-size: 10px;
+     
+    }
+    .login {
       font-size: 16px;
     }
 

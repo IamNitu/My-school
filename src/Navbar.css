@@ -63,26 +63,31 @@
   
   @media screen and (max-width: 480px) {
 
-    .navbar{
+  .navbar{
 width: 100%;
 z-index: 9999;
 position: fixed;
 height: 90px;
     }
  .container{
-  height: 70px;
+  height: 60px;
+  padding-left: 13px;
+ 
  }
-
- .my-school{
-  height: 90px;
- }
+ 
 .school{
   max-height: 90px;
+  max-width: 80px;
 }
     .menu-icon {
       display: block;
+      
     }
   
+    .header, .nitu{
+      font-size:12px;
+    }
+
     .navlinks {
       display: none;
       flex-direction: column;
@@ -90,19 +95,22 @@ height: 90px;
       top: 70px;
       right: 0;
       background:  #155E95;
-      width: 40%;
+      width: 30%;
+      
       /* height: 200px; */
       text-align: center;
     padding: 10px;
+    
     }
   
     .navlinks.open {
+     
       display: flex;
-     margin: 4px;
+     margin-right: 4px;
     }
   
     .navlinks a {
-      /* padding: 0px; */
+      padding: 3px;
       font-size: 14px;
     }
   }

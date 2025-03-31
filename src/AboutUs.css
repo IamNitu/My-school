@@ -1,6 +1,13 @@
 
 
 .herosection img{
-    height: 400px;
+    height: 380px;
     
+}
+
+@media (max-width: 480px) {
+
+    .contact-about {
+       padding-left: 200sspx;
+    }
 }

@@ -77,7 +77,7 @@ function Review() {
                     <img className="review-image" src={card.imgSrc} alt={card.alt} />
                    <div className='name' style={{background:'none'}}> <h3>{card.title}</h3>
                     <p id='parent' style={{background:'none'}}>{card.name}</p></div>
-                    <p style={{background:'none'}}>{card.description}</p>
+                    <p id='desc' style={{background:'none'}}>{card.description}</p>
                     {/* <button>Read More</button> */}
                 </div>
             ))}

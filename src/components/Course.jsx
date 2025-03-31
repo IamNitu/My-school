@@ -57,7 +57,7 @@ const data=[
         <div className='course'>
 
 <h1 >Our Courses</h1>
-<p style={{fontSize:'17px'}}>Start Your Journey with Our Selected Courses for You.</p>
+<p >Start Your Journey with Our Selected Courses for You.</p>
 
         </div>
         <div className='course.component'>
@@ -82,10 +82,10 @@ const data=[
             ))}
         </div>
 
-<div className='vayo'>
+<div className='final-content'>
 
-        <h3 style={{textAlign:'center',fontSize:'25px',paddingTop:'14px'}}>Our Popular Courses</h3>
-        <p style={{textAlign:'center',fontSize:'17px',paddingTop:'14px'}}>"Check out the additional courses offered to enhance student learning"</p></div>
+        <h3 >Our Popular Courses</h3>
+        <p >"Check out the additional courses offered to enhance student learning"</p></div>
         <div className='mapping-course'>
             {cards.map((card,index)=>(
                 <div className='coursecontent' key={index}>

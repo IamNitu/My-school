@@ -130,8 +130,8 @@ const filteredImages = images.filter(image =>
   <div className='gallaryimg' >
 <img src={image2} alt='' style={{ width:'100%', height:"450px",background:'cover',opacity:0.9}}  />
 <div className='gallery-about'>
-<h1 style={{background:'none',paddingBottom:'10px',fontSize:'30px'}}>School Gallery</h1>
-    <p style={{background:'none',cursor: 'pointer',fontSize:'20px'}}>Home{' > '}Gallery</p>
+<h1 style={{background:'none',paddingBottom:'10px',fontSize:'23px'}}>School Gallery</h1>
+    <p style={{background:'none',cursor: 'pointer',fontSize:'18px'}}>Home{' > '}Gallery</p>
 </div>
   </div>
 

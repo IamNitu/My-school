@@ -13,8 +13,8 @@ function AboutUs() {
     <>
         <div className='aboutus'>
         <div className='about-us'>
-<img src={aboutimgcover} alt='' style={{height:'500px',width:"100%"}}></img>
-<div className='contact-about' style={{top:'50%',left:'20%'}}>
+<img src={aboutimgcover} alt='' className='aboutkoimg' style={{height:'450px',width:"100%"}}></img>
+<div className='contact-about' style={{top:'50%',right:'-10%'}}>
 <h1 style={{background:'none',paddingBottom:'10px'}}>ABOUT US</h1>
     <p style={{background:'none',cursor: 'pointer'}}>Home{' > '}About</p>
 </div>
@@ -22,7 +22,7 @@ function AboutUs() {
         <div className='about-container'>
        <div className='section'>
            <div className='herosection'>
-           <img src={aboutimg} alt=''></img>
+           <img src={aboutimg} alt='' id='please'></img>
            <div className='hero-section'>
            <h2> About Our School</h2>
        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 

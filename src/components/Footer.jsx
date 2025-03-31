@@ -15,7 +15,7 @@ function Footer() {
         <div className='footer-about' >
         <h2>My School</h2>
 <p >My School is a Complete School Website Solution with Online Admission and Online Fee Payment Accept. 
-This is Best School Website Solution for Your School.</p></div>
+This is Best School Website Solution for Your School.IT is one of the most well-known schools in town. </p></div>
 
         </div>
         <div className='footerlinks' >

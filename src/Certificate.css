@@ -51,19 +51,41 @@
 
 @media screen and (max-width:768px) {
   .certificate-component{
-    width:80%;
-height: auto;;
+    /* width:80%;
+height: auto; */
+width:0%;
+height: 0;
   }
 .certificate-form{
-  height: 250px;
-  width: 430px;
+  /* height: 250px;
+  width: 430px; */
+  height: 230px;
+  width: 310px;
+  
+}
+.certificate-fillform input{
+  font-size: 12px;
+  height: 25px;
+}
+.formstyle h2{
+  font-size: 16px;
+}
+.formstyle p{
+  font-size: 14px;
+}
+.submit{
+  font-size: 10px;
+  height: 25px;
 }
 
 }
 
 @media screen and (max-width:480){
   .certificate-form{
-    height: 400px;
-    width: 400px;
+    /* height: 250px;
+    width: 430px; */
+    height: 200px;
+    width: 300px;
   }
+  
 }

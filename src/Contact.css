@@ -236,9 +236,12 @@ iframe {
 @media (max-width: 480px) {
     .contact-about {
         font-size: 2rem;
-        top: 50%;
+        top: 70%;
+        right: 0%;
     }
-
+.signup{
+  font-size: 16px;
+}
     .contact-about p {
         font-size: 16px;
     }
@@ -250,14 +253,20 @@ iframe {
 
     .fill-form-container input {
         font-size: 12px;
+        height: 27px;
         padding: 8px;
+    }
+
+    .fill-form-container label {
+        font-size: 12px;
+        
     }
 
     .submitted {
         font-size: 12px;
         padding: 8px;
+        height: 27px;
     }
-
     .mapcontent {
         width: 85%;
     }

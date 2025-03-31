@@ -80,19 +80,21 @@
   
   @media (max-width: 480px) {
     .infoslider {
-      height: auto;
+      
+      height: 150px;
       padding: 40px 10px;
     }
+
   
     .icon-para h3 {
-      font-size: 12px;
+      font-size: 10px;
     }
     .icon-para p {
-      font-size: 12px;
+      font-size: 10px;
     }
   
     .font-icons {
-      height: 20px;
+      height: 18px;
     }
   }
   

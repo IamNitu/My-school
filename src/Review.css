@@ -93,14 +93,26 @@
 
   @media (max-width: 480px) {
     .review-info h1 {
-      font-size: 22px;
+      font-size: 16px;
     }
     .review-info p {
-      font-size: 16px;
+      font-size: 14px;
     }
     .review-card {
       width: 95%;
       padding: 15px;
+    }
+
+    .review-image{
+      width: 75%;
+      height: 200px;
+     
+    }
+    #parent, #desc{
+      font-size: 14px;
+    }
+    .name{
+      font-size: 16px;
     }
     /* .review-row{
       height: auto;
