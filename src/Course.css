@@ -156,7 +156,7 @@
   
   @media screen and (max-width: 480px) {
     .coursecontent{
-      max-width: 80%;
+      max-width: 85%;
       height: 390px;
      
     }
@@ -190,7 +190,7 @@ font-size: 16px;
       padding-top: 20px;
     }
     .coursecontent {
-      width: 950%;
+      width: 95%;
       padding: 15px;
     }
     .mappingcontent h3 {

@@ -67,18 +67,22 @@
 width: 100%;
 z-index: 9999;
 position: fixed;
-height: 85px;
+height: 80px;
     }
  .container{
   height: 60px;
   padding-left: 15px;
  
  }
+ .my-school{
+  height: 80px;
+ }
  
 .school{
-  max-height: 90px;
-  max-width: 78px;
-margin-right:4px;
+  max-height: 80px;
+  max-width: 90px;
+/* margin-right:4px; */
+padding-right: 4px;
 }
     .menu-icon {
       display: block;
@@ -105,15 +109,17 @@ margin-right:4px;
     }
   
     .navlinks.open {
-     
       display: flex;
-     margin-right: 7px;
-     width:120px;
+     margin-right: 10px;
+     width:140px;
+   gap: 15px;
+   margin-top: 10px;
     }
   
     .navlinks a {
-      padding: 6px;
+      padding: 7px;
       font-size: 12px;
+     
     }
   }
   

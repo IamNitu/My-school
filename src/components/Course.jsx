@@ -6,7 +6,7 @@ const cards=[
         {
           imgsrc:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZfOPpD8TES9LYS2S_KF057K5ptvLP479cQ&s',
             title:'Web Technology',
-         description:'Learn programming language to create, maintain & interact with websites/web applications including project design, layout, coding and functionality.',
+         description:'Learn programming language to create, maintain & interact with websites including project design, layout, coding and functionality.',
      },
         {imgsrc:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwtT3kWoq7kDESnM9RcOaVJ4Dv0gEn9aZk9Q&s',
              title:'Network Security',
