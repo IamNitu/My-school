@@ -286,6 +286,11 @@
         font-size: 14px;
     }
 
+    /* .footer-contact ul{
+      height: 130px;
+     
+    } */
+
     .footerimg img {
         width: 80%;
         max-width: 170px;
@@ -307,18 +312,23 @@
     }
 
     .footercontact{
-      padding-top: 10px;
+      padding-top: 11px;
       padding-bottom: 10px;
        padding-left: 90px; 
      
     }
     .footer-contact-container h2{
       font-size: 16px;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
+    }
+
+    .fontcontact {
+     padding: 2px;
     }
 
   
     .copyright p {
+ 
         font-size: 14px;
         padding: 15px;
     }

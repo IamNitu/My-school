@@ -156,7 +156,7 @@ iframe {
     height: 210px;
     width: 300px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
     padding: 10px;
     background: #155E95;
@@ -190,11 +190,11 @@ iframe {
     }
 
     .form1{
-        width: 300px;
+        width: 290px;
     }
 
     .fillform1 {
-        width: 95%;
+        width: 90%;
         padding: 20px;
         top: 50%;
     }

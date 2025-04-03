@@ -1,7 +1,7 @@
 
 .navbar {
     /* background-color: #004080; */
-    padding: 8px;
+    padding: 10px;
     height:100px;
   }
   
@@ -67,7 +67,7 @@
 width: 100%;
 z-index: 9999;
 position: fixed;
-height: 90px;
+height: 85px;
     }
  .container{
   height: 60px;
@@ -78,7 +78,7 @@ height: 90px;
 .school{
   max-height: 90px;
   max-width: 78px;
- 
+margin-right:4px;
 }
     .menu-icon {
       display: block;
@@ -96,12 +96,12 @@ height: 90px;
       top: 70px;
       right: 0;
       background:  #155E95;
-      width: 30%;
+      width: 100px;
       
       /* height: 200px; */
       text-align: center;
-    padding: 10px;
-    
+    padding: 6px ;
+    gap:12px;
     }
   
     .navlinks.open {
@@ -112,8 +112,8 @@ height: 90px;
     }
   
     .navlinks a {
-      padding: 3px;
-      font-size: 14px;
+      padding: 6px;
+      font-size: 12px;
     }
   }
   

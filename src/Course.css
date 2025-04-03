@@ -15,7 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 60px;
+    padding-top: 10px;
     height: 500px;
     background-color:white;
     
@@ -34,9 +34,9 @@
     height: 400px;
     width: 350px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
-    padding: 10px;
+    padding: 12px;
     background: #155E95;
     cursor: pointer;
   }
@@ -51,6 +51,7 @@
   .mappingcontent p{
     
     padding-top: 8px;
+    
     background: none;
     background-color:#155E95;
   }
@@ -68,6 +69,7 @@
     text-align:center;
     font-size:17px;
     padding-top:14px;
+    padding-bottom: 35px;
   }
 
 
@@ -138,8 +140,9 @@
      padding-top: 100px;
     }
     .coursecontent {
-      width: 90%;
-      max-width: 320px;
+      width: 80%;
+      max-width: 260px;
+ 
       margin-bottom: 20px;
     
     }
@@ -153,12 +156,16 @@
   
   @media screen and (max-width: 480px) {
     .coursecontent{
-      height: 425px;
+      max-width: 80%;
+      height: 390px;
+     
     }
      .course p {
       height: auto;
-      padding: 10px;
+      padding-left: 16px;
       font-size: 14px;
+      max-width: 95%;
+      padding-bottom: 8px;
     }
     .course h1{
       height: auto;
@@ -183,7 +190,7 @@ font-size: 16px;
       padding-top: 20px;
     }
     .coursecontent {
-      width: 95%;
+      width: 950%;
       padding: 15px;
     }
     .mappingcontent h3 {

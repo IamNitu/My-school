@@ -88,6 +88,10 @@
 
 
 @media (max-width: 480px) {
+.section{
+  padding: 20px;
+}
+
   .herosection img {
     width: 100%;
   
@@ -103,6 +107,7 @@
   }
   .hero-section{
     width: 100%;
+    padding: 10px;
   }
 
   .hero-section p {
